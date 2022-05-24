@@ -1,0 +1,80 @@
+*{
+				padding:0px;
+				margin:0px;
+			}
+			ul{
+				list-style:none;
+			}
+			.clear:after{
+				content:"";
+				display:block;
+				clear:both;
+			}
+			.fl{
+				float:left;
+			}
+			.fr{
+				float:right;
+			}
+			.loopview{
+				position:relative;
+				width:600px;
+				height:320px;
+				overflow:hidden;
+				margin:60px auto;
+			}
+			.loopview ul{
+				position:absolute;
+				left:0px;
+			}
+			.loopview ul li{
+				float:left
+			}
+			.loopview ul li img{
+				width:600px;
+				height:320px;
+			}
+			.loopview .loopbar{
+				position:absolute;
+				bottom:20px;
+			}
+			.loopview .loopbar span{
+				float:left;
+				margin-left:3px;
+				width:16px;
+				line-height:16px;
+				border-radius:8px;
+				background:black;
+				text-align:center;
+				font-size:12px;
+				color:white;
+			}
+			.loopview .leftbutton{
+				position:absolute;
+				line-height:80px;
+				left:0px;
+				font-size:30px;
+				color:white;
+				width:80px;
+				z-index:99;
+				border-radius:80px;
+				text-align:center;
+				background:rgba(0,0,0,0.5);
+				display:none;
+			}
+			.loopview .rightbutton{
+				position:absolute;
+				line-height:80px;
+				right:0px;
+				font-size:30px;
+				color:white;
+				width:80px;
+				z-index:99;
+				border-radius:80px;
+				text-align:center;
+				background:rgba(0,0,0,0.5);
+				display:none;
+			}
+			.loopview .loopbar span{
+				cursor:help;/* 设置鼠标停留在上边的时候的样式 */
+			}

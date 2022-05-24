@@ -1,0 +1,191 @@
+.fz-top ul li {
+    float: left;
+    width: 100px;
+    background: #f5f5f5;
+    position: relative;
+    top: 10px;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+.fz-top ul li:first-child {
+    border-left: 1px solid #e6e6e6;
+}
+
+.fz {
+    width: 1250px;
+    margin: 20px auto;
+}
+
+.fz-top {
+    border-bottom: 2px solid black;
+    line-height: 45px;
+}
+
+.fz .fz-top ul li p {
+    position: absolute;
+    display: none;
+}
+
+.fz .fz-top ul .active p {
+    display: block;
+}
+
+.fz .fz-top ul li .line1 {
+    height: 47px;
+    border-left: 2px solid black;
+    left: -1px;
+    top: -1px;
+}
+
+.fz .fz-top ul li .line2 {
+    width: 100px;
+    border-top: 2px solid black;
+    left: 0px;
+    top: -1px;
+}
+
+.fz .fz-top ul li .line3 {
+    height: 47px;
+    border-left: 2px solid black;
+    right: -1px;
+    top: -1px;
+}
+
+.fz .fz-top ul li .line4 {
+    width: 97px;
+    border-bottom: 4px solid white;
+    left: 1px;
+    bottom: -14px;
+}
+
+.fz .content>div {
+    display: none;
+    height: 520px;
+    border: 1px solid black;
+    border-right: 1px solid transparent;
+    margin-top: 20px;
+}
+
+.fz .content>.active {
+    display: block;
+}
+
+.fz .conA>div {
+    float: left;
+}
+
+.fz .conA .box-a {
+    width: 18%;
+    border-right: 1px solid black;
+}
+
+.fz .conA .box-a img {
+    border-bottom: 1px solid black;
+    height: 341px;
+    width: 100%;
+}
+
+.fz .conA .box-b {
+    width: 32%;
+}
+
+.fz .conA .box-c {
+    width: 50%;
+}
+
+.fz .box-as a {
+    display: block;
+    width: 60px;
+    float: left;
+    line-height: 25px;
+}
+
+.fz .box-as {
+    padding-bottom: 2px;
+}
+
+.fz .el-carousel_arrow {
+    border-radius: 0%!important;
+}
+
+.fz .block-b {
+    display: flex;
+}
+
+.fz .block-b img,
+.fz .block-b a {
+    height: 177px;
+    display: block;
+}
+
+.fz .block-b a {
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+.fz .box-b .block img {
+    width: 100%;
+}
+
+.fz .box-b .block {
+    border-bottom: 1px solid black;
+}
+
+.fz .box-b .block {
+    border-right: 1px solid black;
+}
+
+.fz .box-c ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fz .box-c ul li {
+    width: 33%;
+    border-right: 1px solid black;
+}
+
+.fz .box-c ul li:nth-child(3),
+.fz .box-c ul li:nth-child(6) {
+    width: 34%;
+}
+
+.fz .box-c ul li img {
+    height: 340px;
+}
+
+.fz .box-c ul li:nth-child(n+4) img {
+    height: 178px!important;
+    border-top: 1px solid black;
+}
+
+.fz .box-c ul li a,
+.fz .box-c ul li img {
+    display: block;
+    width: 100%;
+}
+
+.fz .box .bottom ul {
+    display: flex;
+}
+
+.fz .box .bottom {
+    border: 1px solid black;
+    border-top: 1px solid transparent;
+}
+
+.fz .box .bottom ul li {
+    flex: 1;
+}
+
+.fz .box .bottom ul li img,
+.fz .box .bottom ul li a {
+    display: block;
+    width: 100%;
+}
+
+
+/* .box .bottom .block {
+    height: 80px;
+} */
